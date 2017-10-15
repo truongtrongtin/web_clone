@@ -60,6 +60,13 @@ ul {
 	background-color: rgba(0, 0, 0, 0.3);
 }
 
+@media screen and (max-width: 575px)
+{
+	.close-btn {
+		display: none;
+	}
+}
+
 .forward-slash {
     width: 1px;
     height: 75px;
@@ -128,6 +135,7 @@ body.popup-open {
 .close-bottom-btn:hover {
 	background-color: rgba(9, 74, 61, 0.9);
 }
+
 /*End Popup*/
 
 
